@@ -1,5 +1,5 @@
 const url = new URL(location.href)
-console.log(url)
+
 const roomUrl = new URL("https://funtimes.whereby.com")
 roomUrl.pathname = url.pathname
 roomUrl.search = url.search
